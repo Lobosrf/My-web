@@ -5,7 +5,7 @@ export default function Home() {
     <main className="container" style={{ position: 'relative' }}>
       {/* 1. El logo azul superior */}
       <div style={{
-        backgroundColor: '#1100ffff',
+        backgroundColor: '#ffc400ff',
         padding: '8px 16px',
         fontWeight: '900',
         position: 'absolute',
