@@ -28,7 +28,7 @@ export default function Home() {
       }}>
         <div style={{ flexShrink: 0 }}>
           <Image
-            src="/perfil.jpg"
+            src="/perfil.JPG"
             alt="Tu Foto de Perfil"
             width={100}
             height={100}
