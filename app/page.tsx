@@ -1,61 +1,58 @@
-import Link from 'next/link';
+// app/page.tsx
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#fdfbf7] text-black antialiased relative">
-      {/* LOGO AZUL SUPERIOR DERECHA */}
-      <div className="absolute top-0 right-0 p-8">
-        <div className="bg-[#0070f3] text-white px-3 py-1 font-black text-sm uppercase tracking-tighter">
-          lobosrf
-        </div>
-      </div>
+    <main className="container">
+      {/* 1. Foto de Perfil */}
+      <Image
+        src="/tu-foto.jpg" // Asegúrate de poner tu foto en la carpeta /public
+        alt="Tu Nombre"
+        width={120}
+        height={120}
+        className="profile-img"
+        priority
+      />
 
-      <main className="max-w-[1024px] mx-auto px-8 py-24 md:py-36">
-        <div className="max-w-[700px]">
+      {/* 2. Encabezado */}
+      <section>
+        <h1>Tu Nombre Aquí</h1>
+        <h2>Es imposible no triunfar en esta vida</h2>
+      </section>
 
-          {/* CABECERA: FOTO IZQUIERDA, TEXTO DERECHA */}
-          <header className="flex items-center gap-8 mb-12 text-left justify-start">
-            <div className="w-[150px] h-[150px] rounded-full bg-gray-200 flex-shrink-0 overflow-hidden border border-black/5">
-              <div className="w-full h-full flex items-center justify-center text-gray-400 text-4xl font-bold italic">L</div>
-            </div>
-            <div className="text-left">
-              <h1 className="text-[38px] font-black mb-1 leading-none text-black">LoboSRF</h1>
-              <p className="text-[20px] text-[#575760]">Es imposible no triunfar en esta vida</p>
-            </div>
-          </header>
+      {/* 3. Cuerpo de texto (Copiando la estructura de la imagen) */}
+      <section>
+        <h3>3 habilidades que todo hombre debe dominar</h3>
+        <p>Estas son las tres habilidades que cualquiera que quiera ser libre debe dominar:</p>
 
-          {/* CUERPO DE TEXTO */}
-          <article className="space-y-8 text-left text-black">
-            <h1 className="text-[52px] font-black leading-[1.1] text-black tracking-tight">
-              3 habilidades que todo hombre debe dominar
-            </h1>
+        <ol>
+          <li>Ganar dinero</li>
+          <li>Invertirlo</li>
+          <li>Protegerlo</li>
+        </ol>
 
-            <div className="text-[20px] leading-[1.6] space-y-6">
-              <p>Aprendo trading institucional minimalista:</p>
+        <p>
+          Me trae sin cuidado que te guste o te disguste, mientras no sepas hacer
+          eso no conocerás el significado de la palabra libertad.
+        </p>
 
-              <ol className="list-decimal list-inside space-y-3 font-bold">
-                <li>Wyckoff</li>
-                <li>Candel Range Theory</li>
-                <li>ICT</li>
-              </ol>
+        <p><em>Generar, multiplicar, proteger.</em></p>
 
-              <p>Me trae sin cuidado que te guste o te disguste, mientras no sepas hacer eso no conocerás el significado de la palabra libertad.</p>
+        <p>Cada día envío un email en el que cuento cómo hacerlo. Te apuntas ahí:</p>
+      </section>
 
-              <p className="italic font-bold">Generar, multiplicar, proteger.</p>
-
-              <p>Cada día envío un email en el que cuento cómo hacerlo. Te apuntas ahí:</p>
-            </div>
-
-            {/* ENLACES ESTILO LISTA ALINEADOS A LA IZQUIERDA */}
-            <nav className="flex flex-col gap-6 pt-10 border-t border-gray-200 items-start">
-              <Link href="https://lobosrf.substack.com" className="text-xl font-bold border-b-2 border-black">Substack</Link>
-              <Link href="#" className="text-xl font-bold border-b-2 border-transparent hover:border-black transition-all">Trading</Link>
-              <Link href="https://github.com/Lobosrf" className="text-xl font-bold border-b-2 border-transparent hover:border-black transition-all">GitHub</Link>
-              <Link href="#" className="text-xl font-bold border-b-2 border-transparent hover:border-black transition-all">Twitter</Link>
-            </nav>
-          </article>
-        </div>
-      </main>
-    </div>
+      {/* 4. Formulario de Suscripción */}
+      <form className="form-container">
+        <input
+          type="email"
+          placeholder="Tu mejor email..."
+          required
+          className="email-input"
+        />
+        <button type="submit">
+          Apuntarme
+        </button>
+      </form>
+    </main>
   );
 }
