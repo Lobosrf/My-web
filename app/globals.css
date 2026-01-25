@@ -2,32 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #FFF7F2;
-  /* El crema exacto de su código */
-  --contrast: #272727;
-}
-
 body {
-  background-color: var(--background);
-  color: var(--contrast);
-  font-family: Arial, sans-serif;
+  background-color: #fdfbf7;
   margin: 0;
-  line-height: 1.5;
-}
-
-h1,
-h2 {
-  font-family: "Work Sans", sans-serif;
-  font-weight: bold;
-  line-height: 0.9em;
-  letter-spacing: -0.02em;
-}
-
-.malo-logo {
-  background-color: #FFEC00;
-  padding: 4px 10px;
-  font-weight: bold;
-  text-transform: lowercase;
-  font-family: "Work Sans", sans-serif;
 }
