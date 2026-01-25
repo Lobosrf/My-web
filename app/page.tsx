@@ -48,14 +48,14 @@ export default function Home() {
             letterSpacing: '-0.02em',
             color: '#1a1a1a'
           }}>
-            Tu Nombre Aquí
+            Lobo SRF
           </h1>
           <p style={{
             margin: 0,
             color: '#4a4a4a',
             fontSize: '1.1rem'
           }}>
-            Es imposible no triunfar en esta vida
+            Aquí aprendo trading institucional
           </p>
         </div>
       </header>
