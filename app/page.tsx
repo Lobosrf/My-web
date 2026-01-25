@@ -3,9 +3,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="container" style={{ position: 'relative' }}>
-      {/* 1. El logo amarillo superior */}
+      {/* 1. El logo azul superior */}
       <div style={{
-        backgroundColor: '#FFEB00',
+        backgroundColor: '#1100ffff',
         padding: '8px 16px',
         fontWeight: '900',
         position: 'absolute',
@@ -15,7 +15,7 @@ export default function Home() {
         fontSize: '0.9rem',
         textTransform: 'lowercase'
       }}>
-        tu-marca
+        Lobo SRF
       </div>
 
       {/* 2. Cabecera con Foto y Nombre alineados horizontalmente */}
@@ -70,28 +70,29 @@ export default function Home() {
           letterSpacing: '-0.03em',
           color: '#1a1a1a'
         }}>
-          3 habilidades que todo hombre debe dominar
+          3 habilidades que todo trader debe dominar
         </h2>
 
-        <p>Estas son las tres habilidades que cualquiera que quiera ser libre debe dominar:</p>
+        <p>Estas son las tres habilidades que cualquiera que quiera ser trader debe dominar:</p>
 
         <ol style={{
           paddingLeft: '20px',
           margin: '25px 0',
           fontSize: '1.15rem'
         }}>
-          <li style={{ marginBottom: '10px' }}>Ganar dinero</li>
-          <li style={{ marginBottom: '10px' }}>Invertirlo</li>
-          <li style={{ marginBottom: '10px' }}>Protegerlo</li>
+          <li style={{ marginBottom: '10px' }}>Wyckoff</li>
+          <li style={{ marginBottom: '10px' }}>Candle Range Theory</li>
+          <li style={{ marginBottom: '10px' }}>ICT</li>
         </ol>
 
         <p style={{ marginBottom: '20px' }}>
-          Me trae sin cuidado que te guste o te disguste, mientras no sepas hacer
-          eso no conocerás el significado de la palabra libertad.
+          Me da igual si te gustan las EMAS o el RSI, esto se trata de ganar dinero,
+          no de parecer mejor trader
         </p>
 
         <p style={{ fontStyle: 'italic', marginBottom: '20px' }}>
-          Generar, multiplicar, proteger.
+          Te muestro las habilidades que necesitas para ganar operaciones diarias
+          y que te hagan crecer tu cuenta
         </p>
 
         <p style={{ marginTop: '40px', fontWeight: '500' }}>
@@ -99,10 +100,16 @@ export default function Home() {
         </p>
       </section>
 
-      {/* 4. Formulario de Suscripción */}
-      <form style={{ marginTop: '20px', maxWidth: '600px' }}>
+      {/* Formulario de Suscripción a Substack */}
+      <form
+        action="https://lobosrf.substack.com/subscribe"
+        method="GET"
+        target="_blank"
+        style={{ marginTop: '20px', maxWidth: '600px' }}
+      >
         <input
           type="email"
+          name="email"
           placeholder="Tu mejor email..."
           required
           style={{
@@ -112,7 +119,8 @@ export default function Home() {
             borderRadius: '4px',
             fontSize: '1rem',
             marginBottom: '10px',
-            backgroundColor: '#fff'
+            backgroundColor: '#fff',
+            color: '#000'
           }}
         />
         <button
