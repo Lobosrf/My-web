@@ -2,8 +2,23 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="container">
-      {/* 1. Cabecera con Foto y Nombre alineados horizontalmente */}
+    <main className="container" style={{ position: 'relative' }}>
+      {/* 1. El logo amarillo superior */}
+      <div style={{
+        backgroundColor: '#FFEB00',
+        padding: '8px 16px',
+        fontWeight: '900',
+        position: 'absolute',
+        top: '-40px',
+        right: '0',
+        color: '#000',
+        fontSize: '0.9rem',
+        textTransform: 'lowercase'
+      }}>
+        tu-marca
+      </div>
+
+      {/* 2. Cabecera con Foto y Nombre alineados horizontalmente */}
       <header style={{
         display: 'flex',
         alignItems: 'center',
@@ -13,13 +28,16 @@ export default function Home() {
       }}>
         <div style={{ flexShrink: 0 }}>
           <Image
-            src="/perfil.jpg" // Asegúrate de que el nombre coincida con tu archivo en /public
+            src="/perfil.jpg"
             alt="Tu Foto de Perfil"
-            width={120}
-            height={120}
-            className="profile-img"
+            width={100}
+            height={100}
             priority
-            style={{ objectFit: 'cover', borderRadius: '50%' }}
+            style={{
+              objectFit: 'cover',
+              borderRadius: '50%',
+              backgroundColor: '#eee' // Fondo temporal mientras carga la imagen
+            }}
           />
         </div>
         <div>
@@ -27,7 +45,8 @@ export default function Home() {
             fontSize: '1.8rem',
             margin: 0,
             fontWeight: '800',
-            letterSpacing: '-0.02em'
+            letterSpacing: '-0.02em',
+            color: '#1a1a1a'
           }}>
             Tu Nombre Aquí
           </h1>
@@ -41,14 +60,15 @@ export default function Home() {
         </div>
       </header>
 
-      {/* 2. Cuerpo de Texto con el estilo de la referencia */}
+      {/* 3. Cuerpo de Texto */}
       <section style={{ maxWidth: '600px' }}>
         <h2 style={{
           fontSize: '2.5rem',
           fontWeight: '900',
           lineHeight: '1.1',
           marginBottom: '30px',
-          letterSpacing: '-0.03em'
+          letterSpacing: '-0.03em',
+          color: '#1a1a1a'
         }}>
           3 habilidades que todo hombre debe dominar
         </h2>
@@ -79,8 +99,8 @@ export default function Home() {
         </p>
       </section>
 
-      {/* 3. Formulario de Suscripción */}
-      <form className="form-container" style={{ marginTop: '20px' }}>
+      {/* 4. Formulario de Suscripción */}
+      <form style={{ marginTop: '20px', maxWidth: '600px' }}>
         <input
           type="email"
           placeholder="Tu mejor email..."
@@ -91,7 +111,8 @@ export default function Home() {
             border: '1px solid #ccc',
             borderRadius: '4px',
             fontSize: '1rem',
-            marginBottom: '10px'
+            marginBottom: '10px',
+            backgroundColor: '#fff'
           }}
         />
         <button
@@ -104,27 +125,13 @@ export default function Home() {
             borderRadius: '4px',
             fontWeight: 'bold',
             cursor: 'pointer',
-            width: '100%'
+            width: '100%',
+            fontSize: '1rem'
           }}
         >
           Apuntarme
         </button>
       </form>
-
-      {/* 4. El logo amarillo superior (Opcional) */}
-      <div style={{
-        backgroundColor: '#FFEB00',
-        padding: '8px 16px',
-        fontWeight: '900',
-        position: 'absolute',
-        top: '0',
-        right: '10%',
-        color: '#000',
-        fontSize: '0.9rem',
-        textTransform: 'lowercase'
-      }}>
-        tu-marca
-      </div>
     </main>
   );
 }
