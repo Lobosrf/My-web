@@ -49,7 +49,7 @@ export default function Entrar() {
                     <p style={{ marginBottom: '25px' }}>El motivo es que buscan un gurú con un Lamborghini alquilado que les venda el indicador o la estrategia definitiva.</p>
 
                     <p style={{ marginBottom: '25px' }}>
-                        Tengo alumnos que sentían miedo al abrir una operación porque habían perdido la confianza en sí mismos. Vienen intoxicados de información, con la cabeza llena de ruido con indicadores, todo el gráfico lleno de líneas y la cuenta reventada.
+                        Tengo alumnos que sentían miedo al abrir una operación porque habian perdido la confianza en sí mismos. Vienen intoxicados de información, con la cabeza llena de ruido con indicadores, todo el grafico lleno de lineas y la cuenta reventada.
                     </p>
 
                     <p style={{ marginBottom: '25px' }}>
@@ -61,38 +61,24 @@ export default function Entrar() {
                     </p>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Que recibes?</h2>
-
-                    <p style={{ marginBottom: '20px' }}>• 4 directos mensuales (quedan grabados, no te preocupes) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
-                    <p style={{ marginBottom: '20px' }}>• Información filtrada de RRSS donde el ruido nubla tu criterio y la ilusión mantiene el deseo de que haya un empujón a máximos históricos constantemente (esto no es el oro)</p>
+                    <p>• 4 directos mensuales (quedan grabados, no te preocupes) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
+                    <p>• Información filtrada de RRSS donde el ruido nubla tu criterio y la ilusión mantiene el deseo de que haya un empujón a máximos históricos constantemente (esto no es el oro)</p>
                     <p style={{ marginBottom: '40px' }}>• Sesiones de preguntas y respuestas en directo aprovechando las dudas y errores que cometemos todos haciendo trading.</p>
 
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={{
-                            backgroundColor: '#ff0000',
-                            color: '#fff',
-                            padding: '22px 60px',
-                            fontSize: '2rem',
-                            fontWeight: '900',
-                            textDecoration: 'none',
-                            borderRadius: '4px',
-                            display: 'inline-block',
-                            width: '100%',
-                            maxWidth: '400px'
-                        }}>
+                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={{ backgroundColor: '#ff0000', color: '#fff', padding: '22px 60px', fontSize: '2rem', fontWeight: '900', textDecoration: 'none', borderRadius: '4px', display: 'inline-block', width: '100%', maxWidth: '400px' }}>
                             ENTRAR
                         </a>
                         <div style={{ marginTop: '20px' }}>
-                            <img src="/tarjetas.png" alt="Pago seguro" style={{ width: '250px', margin: '0 auto', display: 'block' }} />
+                            <img src="/tarjetas.png" alt="Tarjetas" style={{ width: '250px', margin: '0 auto', display: 'block' }} />
                         </div>
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Como me ayudará la academia?</h2>
-
                     <p style={{ marginBottom: '20px' }}>Desde el 2021 llevo enseñando a gente y muchos alumnos han conseguido operar con calma siguiendo su estrategia, sin importar si el precio va a subir o a bajar, y cuando empezaron conmigo alguno no sabía ni lo que era un stop loss.</p>
                     <p style={{ marginBottom: '20px' }}>Aquí aprenderás a leer la dirección más probable del precio, donde esperar paciente y cómo colocar tu entrada, saber calcular el dinero que tienes que perder en cada operación y sobre todo ganar confianza para dominar tus impulsos de cerrar operaciones ganadoras antes de tiempo o mover el stop loss.</p>
-                    <p style={{ marginBottom: '20px' }}>Mira, yo no voy a estar detrás de ti para que estudies. Te ayudaré dándote acceso a mis sesiones en directo donde verás cómo analizo Bitcoin y otros activos con las mismas herramientas con las que yo saco rentabilidad.</p>
-                    <p style={{ marginBottom: '20px' }}>Te ayudaré filtrando todo el ruido de redes sociales para que dejes de esperar "to the moon" constantes.</p>
-                    <p style={{ marginBottom: '40px' }}>Básicamente, te ayudaré a que dejes de ser el que paga las ganancias de los que sí sabemos lo que hacemos. El resto depende de tí.</p>
+                    <p style={{ marginBottom: '20px' }}>Mira, yo no voy a estar detrás de ti para que estudies. Te ayudaré dándote acceso a mis sesiones en directo donde verás cómo analizo Bitcoin y otros activos con las mismas herramientas con las que yo saco rentabilidad. Te ayudaré filtrando todo el ruido de redes sociales para que dejes de esperar "to the moon" constantes.</p>
+                    <p style={{ marginBottom: '40px' }}>Básicamente, te ayudaré a que dejes de ser el que paga las ganancias de los que sí sabemos lo que hacemos. El resto depende de tu disciplina, no de la mía.</p>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
                         <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '100%', borderRadius: '8px' }} />
@@ -101,22 +87,21 @@ export default function Entrar() {
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
-
-                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Tendré acceso a ti?</h3>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900' }}>¿Tendré acceso a ti?</h3>
                     <p style={{ marginBottom: '25px' }}>Si eres socio, en los directos tendrás la opción de poner la cámara y el micro para preguntar lo que quieras. Si eres un poco vergonzoso, pues pones sólo el micro. No te voy a tratar distinto sólo por no verte.</p>
 
-                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Cuando son los directos?</h3>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900' }}>¿Cuando son los directos?</h3>
                     <p style={{ marginBottom: '15px' }}>Todos los jueves sin excepción a las 21:00 horas España. Salvo el día de nochebuena, el de nochevieja y el 26 de febrero que me voy a esquiar una semana a los pirineos.</p>
 
                     <img src="/esqui.jpg" alt="Pirineos" style={{ width: '100%', borderRadius: '4px', marginBottom: '40px' }} />
 
-                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Puedo cancelar cuando quiera?</h3>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900' }}>¿Puedo cancelar cuando quiera?</h3>
                     <p style={{ marginBottom: '40px' }}>Cuando quieras. Una vez pagas, tienes el mes incluido.</p>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Cuanto vale?</h2>
-                    <p style={{ marginBottom: '20px' }}>20€/mes sin permanencia y para siempre. Nunca subirá el precio hasta que te des de baja.</p>
-                    <p style={{ marginBottom: '20px' }}>El precio se mantiene hasta el día 8 de febrero de 2026 a las 20:59 hora España.</p>
-                    <p style={{ marginBottom: '40px' }}>Si te piensas apuntar, hazlo antes del 8, hazme caso. Después el precio sube.</p>
+                    <p style={{ marginBottom: '10px' }}>20€/mes sin permanencia y parasiempre. Nunca subirá el precio hasta que te des de baja.</p>
+                    <p style={{ marginBottom: '10px' }}>El precio se mantiene hasta el día 8 de febrero de 2026 a las 20:59 hora España.</p>
+                    <p style={{ marginBottom: '40px' }}>No confundas precio con valor. Si crees que 20 € es caro es que para tí es un gasto.</p>
 
                     <div style={{ textAlign: 'center', marginTop: '50px', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
                         <p style={{ fontSize: '1.2rem', fontWeight: '800' }}>
