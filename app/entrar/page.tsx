@@ -27,25 +27,25 @@ export default function EntrarPage() {
 
                     <p style={{ marginBottom: '25px' }}>Es innegable: si dominas estas tres, tu vida solo puede mejorar.</p>
 
-                    <p style={{ marginBottom: '10px' }}>1. Una estrategia rentable. (Solo probabilidad).</p>
-                    <p style={{ marginBottom: '10px' }}>2. Una gestión de riesgo de hierro. (Lo que te mantiene vivo cuando fallas).</p>
-                    <p style={{ marginBottom: '40px' }}>3. Una psicología trabajada. (Lo que te impide pulsar el botón de comprar por miedo).</p>
+                    <p style={{ marginBottom: '10px' }}>1. <strong>Una estrategia rentable.</strong> (Solo probabilidad).</p>
+                    <p style={{ marginBottom: '10px' }}>2. <strong>Una gestión de riesgo de hierro.</strong> (Lo que te mantiene vivo cuando fallas).</p>
+                    <p style={{ marginBottom: '40px' }}>3. <strong>Una psicología trabajada.</strong> (Lo que te impide pulsar el botón de comprar por miedo).</p>
 
                     <p style={{ marginBottom: '25px' }}>En el trading no existe la suerte, te guste o no. Suerte es pegar un pelotazo y después perderlo todo en la siguiente jugada.</p>
 
                     <p style={{ marginBottom: '25px' }}>
-                        Llevo auditando mi cuenta principal desde el 1 de septiembre de 2025 y el resultado es un 41% de ganancias.
+                        Llevo auditando mi cuenta principal desde el 1 de septiembre de 2025 y el resultado es un <strong>41% de ganancias</strong>.
                         Mientras tú pierdes meses intentando descifrar cada coma de Wyckoff o ICT, yo simplemente los pongo en práctica seleccionando los dos o tres conceptos que de verdad mueven el precio.
                     </p>
 
                     <p style={{ marginBottom: '50px' }}>
-                        Yo gano y tú sigues probando estrategias cada vez que pierdes 3 operaciones seguidas. Elige qué prefieres hacer.
+                        Yo gano y <strong>tú sigues probando estrategias cada vez que pierdes 3 operaciones seguidas.</strong> Elige qué prefieres hacer.
                     </p>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>La mentira de la estrategia mágica</h2>
 
                     <p style={{ marginBottom: '25px' }}>
-                        El 85% de los traders retail acaban desangrando sus cuentas poco a poco. Datos publicados por uno de los principales brokers, Capital.com en su propia página web.
+                        El 85% de los traders retail acaban desangrando sus cuentas poco a poco. Datos publicados por uno de los principales brokers, <strong>Capital.com en su propia página web.</strong>
                     </p>
 
                     <p style={{ marginBottom: '25px' }}>El motivo es que buscan un gurú con un Lamborghini alquilado que les venda el indicador o la estrategia definitiva.</p>
@@ -55,10 +55,10 @@ export default function EntrarPage() {
                     </p>
 
                     <p style={{ marginBottom: '25px' }}>
-                        Yo no vendo una estrategia mágica. Te ayudo a crear la tuya de cero. Vendo acompañamiento y orden.
+                        Yo no vendo una estrategia mágica. Te ayudo a crear la tuya de cero. Vendo <strong>acompañamiento y orden.</strong>
                     </p>
 
-                    <p style={{ marginBottom: '50px' }}>
+                    <p style={{ marginBottom: '25px' }}>
                         Conozco a poca gente que domine los tres pilares. La mayoría no tiene una estrategia, tiene una esperanza y van probando una después de otra cuando los resultados de tres operaciones no salen bien. Otros no gestionan el riesgo, simplemente apuestan. Ganan mucho en un par de operaciones y en las siguientes han fundido todos los profits. Y de la psicología… aquí es donde puedo ayudarte con herramientas para que tu mismo corrijas tus errores. Necesitas añadir la palabra "disciplina" a tu diccionario.
                     </p>
 
@@ -69,7 +69,7 @@ export default function EntrarPage() {
                     <p style={{ marginBottom: '40px' }}>• Sesiones de preguntas y respuestas en directo aprovechando las dudas y errores que cometemos todos haciendo trading.</p>
 
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="#" style={{ backgroundColor: '#000', color: '#fff', padding: '20px 40px', fontSize: '1.4rem', fontWeight: '900', textDecoration: 'none', borderRadius: '4px', display: 'block' }}>
+                        <a href="#" style={{ backgroundColor: '#000', color: '#fff', padding: '20px 40px', fontSize: '1.4rem', fontWeight: '900', textDecoration: 'none', borderRadius: '4px', display: 'inline-block' }}>
                             ENLACE DE PAGO
                         </a>
                     </div>
@@ -80,38 +80,51 @@ export default function EntrarPage() {
                     <p style={{ marginBottom: '20px' }}>Aquí aprenderás a leer la dirección más probable del precio, donde esperar paciente y cómo colocar tu entrada, saber calcular el dinero que tienes que perder en cada operación y sobre todo ganar confianza para dominar tus impulsos de cerrar operaciones ganadoras antes de tiempo o mover el stop loss</p>
                     <p style={{ marginBottom: '20px' }}>Mira, yo no voy a estar detrás de ti para que estudies. Te ayudaré dándote acceso a mis sesiones en directo donde verás cómo analizo Bitcoin y otros activos con las mismas herramientas con las que yo saco rentabilidad.</p>
                     <p style={{ marginBottom: '20px' }}>Te ayudaré filtrando todo el ruido de redes sociales para que dejes de esperar "to the moon" constantes.</p>
-                    <p style={{ marginBottom: '20px' }}>Básicamente, te ayudaré a que dejes de ser el que paga las ganancias de los que sí sabemos lo que hacemos. El resto depende de tí.</p>
-                    <p style={{ marginBottom: '20px' }}>Yo sé que lo que enseño te va a servir para toda tu vida, mas que nada por la experiencia que me han dado los años.</p>
-                    <p style={{ marginBottom: '40px' }}>Además si pones algo de tu parte para usar chatgpt y le preguntas que es un stop loss, pues eso que llevas avanzado.</p>
+                    <p style={{ marginBottom: '40px' }}>Básicamente, te ayudaré a que dejes de ser el que paga las ganancias de los que sí sabemos lo que hacemos. El resto depende de tu disciplina, no de la mía.</p>
+
+                    <img src="/testimonios.png" alt="Testimonios" style={{ width: '100%', marginBottom: '40px', borderRadius: '4px' }} />
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
 
-                    <h2 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Tendré acceso a ti?</h2>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Tendré acceso a ti?</h3>
                     <p style={{ marginBottom: '25px' }}>Si eres socio, en los directos tendrás la opción de poner la cámara y el micro para preguntar lo que quieras. Si eres un poco vergonzoso, pues pones sólo el micro. No te voy a tratar distinto sólo por no verte.</p>
 
-                    <h2 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Cuando son los directos?</h2>
-                    <p style={{ marginBottom: '25px' }}>Todos los jueves sin excepción a las 21:00 horas España. Salvo el día de nochebuena, el de nochevieja y el 26 de febrero que me voy a esquiar una semana a los pirineos.</p>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Cuando son los directos?</h3>
+                    <p style={{ marginBottom: '15px' }}>Todos los jueves sin excepción a las 21:00 horas España. Salvo el día de nochebuena, el de nochevieja y el 26 de febrero que me voy a esquiar una semana a los pirineos.</p>
 
-                    <h2 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Puedo cancelar cuando quiera?</h2>
+                    <img src="/esqui.jpg" alt="Pirineos" style={{ width: '100%', marginBottom: '40px', borderRadius: '4px' }} />
+
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900', marginBottom: '15px' }}>¿Puedo cancelar cuando quiera?</h3>
                     <p style={{ marginBottom: '40px' }}>Cuando quieras. Una vez pagas, tienes el mes incluido.</p>
 
-                    {/* Sección de Testimonios con las fotos */}
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '50px' }}>
-                        <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '100%', borderRadius: '8px' }} />
-                        <img src="/testimonio2.png" alt="Testimonio 2" style={{ width: '100%', borderRadius: '8px' }} />
-                        <img src="/testimonio3.png" alt="Testimonio 3" style={{ width: '100%', borderRadius: '8px' }} />
-                    </div>
+                    <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Como funciona la comunidad?</h2>
+                    <p style={{ marginBottom: '25px' }}>Una vez pagas, recibes acceso automático al software Discord. Dentro tienes varios canales de texto y de voz donde puedes escribir lo que quieras, con respeto.</p>
+
+                    <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Hay que saber de trading? ¿Hay que saber conceptos complejos de ICT, de Wyckoff o similar? ¿Hay que saber abrir una operación en Bingx o en Binance?</h2>
+                    <p style={{ marginBottom: '25px' }}>Entras para aprender trading, si empiezas de cero te puede resultar abrumador. Pero más abrumadores seguir fichando de 8 a 17 el resto de tu vida. Por supuesto en las clases en directo te voy a resolver todas tus dudas sobre trading y quizas algunas sobre la vida, mas que nada por la experiencia que me han dado los años.</p>
+
+                    <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Se requiere para entrar que seas alguien competente. Y NO ES PARA TI si cumples alguna de estas cualidades:</h2>
+                    <ul style={{ marginBottom: '40px', listStylePosition: 'inside' }}>
+                        <li style={{ marginBottom: '10px' }}>Has visto en RRSS que el trading da mucho dinero y tu quieres hacer lo mismo trabajando 2 horas al día</li>
+                        <li style={{ marginBottom: '10px' }}>Llevas siglos perdiendo sin saber el motivo y no quieres dedicar varias horas a la semana durante algún tiempo para evitar que tu cuenta siga desangrándose</li>
+                        <li style={{ marginBottom: '10px' }}>Estás perdido, no sabes a qué dedicarte en la vida y el trading te va a dar mucho dinero.</li>
+                        <li style={{ marginBottom: '10px' }}>Necesitas un manual paso a paso y que un adulto te supervise en tu vida diaria.</li>
+                        <li style={{ marginBottom: '10px' }}>Eres vago. (Si tienes disciplina y motivación para cambiar tu situación, entonces sí puedes entrar. Si no, quédate fuera).</li>
+                    </ul>
+
+                    <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Necesito conocimientos técnicos?</h2>
+                    <p style={{ marginBottom: '20px' }}>Si. No tienes que ser informático pero con saber usar Trading View, y un exchange es suficiente.</p>
+                    <p style={{ marginBottom: '40px' }}>Habrá una parte grabada con lo básico de ambas plataformas. Pero si sigues teniendo dudas, NO TE APUNTES.</p>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Cuanto vale?</h2>
                     <p style={{ marginBottom: '20px' }}>20€/mes sin permanencia y parasiempre. Nunca subirá el precio hasta que te des de baja.</p>
                     <p style={{ marginBottom: '20px' }}>El precio se mantiene hasta el día 8 de febrero de 2026 a las 20:59 hora España</p>
-                    <p style={{ marginBottom: '40px' }}>Si te piensas apuntar, hazlo antes del 8, hazme caso. Después el precio sube.</p>
+                    <p style={{ marginBottom: '20px' }}>Si te piensas apuntar, hazlo antes del 8, hazme caso. Después el precio sube.</p>
+                    <p style={{ marginBottom: '40px' }}>No confundas precio con valor. Si crees que 20 € es caro es que para tí es un gasto.</p>
 
-                    <div style={{ textAlign: 'center', marginTop: '50px', padding: '40px', borderTop: '1px solid #ddd' }}>
-                        <p style={{ fontSize: '1.2rem', fontWeight: '800' }}>
-                            Hasta que no entiendas que invertir en tí no es un gasto, <strong>NO TE APUNTES.</strong>
-                        </p>
-                    </div>
+                    <p style={{ fontSize: '1.2rem', fontWeight: '800', marginTop: '50px', textAlign: 'center' }}>
+                        Hasta que no entiendas que invertir en tí no es un gasto, <strong>NO TE APUNTES.</strong>
+                    </p>
 
                 </article>
             </div>
