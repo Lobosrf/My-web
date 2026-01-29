@@ -105,10 +105,29 @@ export default function Entrar() {
                     <p style={{ marginBottom: '20px' }}>No esperes comprarte un lambo en el próximo año. Esto no funciona así. Si es tu pensamiento, NO ENTRES.</p>
                     <p style={{ marginBottom: '40px' }}>Ver la clase grabada al día siguiente: el valor real está en el directo porque ahí corregimos TU error.</p>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-                        <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '200%', borderRadius: '16px' }} />
-                        <img src="/testimonio2.png" alt="Testimonio 2" style={{ width: '200%', borderRadius: '16px' }} />
-                        <img src="/testimonio3.png" alt="Testimonio 3" style={{ width: '200%', borderRadius: '16px' }} />
+                    {/* SECCIÓN DE TESTIMONIOS: UNO DEBAJO DEL OTRO */}
+                    <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '30px',          // Espacio entre cada testimonio
+                        marginBottom: '50px',
+                        width: '100%'
+                    }}>
+                        <img
+                            src="/testimonio1.png"
+                            alt="Testimonio 1"
+                            style={{ width: '100%', height: 'auto', borderRadius: '16px', display: 'block' }}
+                        />
+                        <img
+                            src="/testimonio2.png"
+                            alt="Testimonio 2"
+                            style={{ width: '100%', height: 'auto', borderRadius: '16px', display: 'block' }}
+                        />
+                        <img
+                            src="/testimonio3.png"
+                            alt="Testimonio 3"
+                            style={{ width: '100%', height: 'auto', borderRadius: '16px', display: 'block' }}
+                        />
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
