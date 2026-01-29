@@ -41,7 +41,7 @@ export default function EntrarPage() {
                     </p>
 
                     <p style={{ marginBottom: '50px' }}>
-                        Yo gano y <strong>tú sigues probando estrategias cada vez que pierdes 3 operaciones seguidas.</strong> Elige qué prefieres hacer.
+                        Yo gano y tú sigues probando estrategias cada vez que pierdes 3 operaciones seguidas. Elige qué prefieres hacer.
                     </p>
 
                     <h2 style={{ fontSize: '1.6rem', fontWeight: '900', marginBottom: '20px' }}>La mentira de la estrategia mágica</h2>
