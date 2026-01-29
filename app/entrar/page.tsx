@@ -50,8 +50,8 @@ export default function Entrar() {
                         Yo no vendo una estrategia mágica. Te ayudo a crear la tuya de cero. Vendo acompañamiento y orden.
                     </p>
 
-                    {/* BLOQUE DEL BOTÓN DE PAGO */}
-                    <div style={{ textAlign: 'center', margin: '50px 0' }}>
+                    {/* BOTÓN Y TARJETAS */}
+                    <div style={{ textAlign: 'center', margin: '40px 0' }}>
                         <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={{
                             backgroundColor: '#ff0000',
                             color: '#fff',
@@ -62,29 +62,39 @@ export default function Entrar() {
                             borderRadius: '4px',
                             display: 'inline-block',
                             width: '100%',
-                            maxWidth: '400px',
-                            boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
+                            maxWidth: '400px'
                         }}>
                             ENTRAR
                         </a>
                         <div style={{ marginTop: '20px' }}>
-                            <img
-                                src="/tarjetas.png"
-                                alt="Métodos de pago"
-                                style={{ width: '250px', margin: '0 auto', display: 'block' }}
-                            />
+                            <img src="/tarjetas.png" alt="Pago seguro" style={{ width: '250px', margin: '0 auto', display: 'block' }} />
                         </div>
+                    </div>
+
+                    <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Como me ayudará la academia?</h2>
+                    <p style={{ marginBottom: '40px' }}>Básicamente, te ayudaré a que dejes de ser el que paga las ganancias de los que sí sabemos lo que hacemos.</p>
+
+                    {/* SECCIÓN DE LAS 3 FOTOS DE TESTIMONIOS */}
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
+                        <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '100%', borderRadius: '8px' }} />
+                        <img src="/testimonio2.png" alt="Testimonio 2" style={{ width: '100%', borderRadius: '8px' }} />
+                        <img src="/testimonio3.png" alt="Testimonio 3" style={{ width: '100%', borderRadius: '8px' }} />
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
                     <h3 style={{ fontSize: '1.4rem', fontWeight: '900' }}>¿Tendré acceso a ti?</h3>
                     <p style={{ marginBottom: '25px' }}>Si eres socio, en los directos tendrás la opción de poner la cámara y el micro para preguntar lo que quieras.</p>
 
-                    <img src="/testimonios.png" alt="Testimonios" style={{ width: '100%', borderRadius: '4px', marginBottom: '40px' }} />
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: '900' }}>¿Cuando son los directos?</h3>
+                    <p style={{ marginBottom: '15px' }}>Todos los jueves sin excepción a las 21:00 horas España. Salvo cuando me voy a esquiar.</p>
 
-                    <p style={{ fontSize: '1.2rem', fontWeight: '800', marginTop: '50px', textAlign: 'center', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
-                        Hasta que no entiendas que invertir en tí no es un gasto, NO TE APUNTES.
-                    </p>
+                    <img src="/esqui.jpg" alt="Pirineos" style={{ width: '100%', borderRadius: '4px', marginBottom: '40px' }} />
+
+                    <div style={{ textAlign: 'center', marginTop: '50px', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
+                        <p style={{ fontSize: '1.2rem', fontWeight: '800' }}>
+                            Hasta que no entiendas que invertir en tí no es un gasto, NO TE APUNTES.
+                        </p>
+                    </div>
 
                 </article>
             </div>
