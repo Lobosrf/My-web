@@ -106,9 +106,9 @@ export default function Entrar() {
                     <p style={{ marginBottom: '40px' }}>Ver la clase grabada al día siguiente: el valor real está en el directo porque ahí corregimos TU error.</p>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-                        <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '100%', borderRadius: '8px' }} />
-                        <img src="/testimonio2.png" alt="Testimonio 2" style={{ width: '100%', borderRadius: '8px' }} />
-                        <img src="/testimonio3.png" alt="Testimonio 3" style={{ width: '100%', borderRadius: '8px' }} />
+                        <img src="/testimonio1.png" alt="Testimonio 1" style={{ width: '200%', borderRadius: '16px' }} />
+                        <img src="/testimonio2.png" alt="Testimonio 2" style={{ width: '200%', borderRadius: '16px' }} />
+                        <img src="/testimonio3.png" alt="Testimonio 3" style={{ width: '200%', borderRadius: '16px' }} />
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
@@ -156,6 +156,11 @@ export default function Entrar() {
 
                     <div style={{ textAlign: 'center', marginTop: '50px', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
                         <p style={{ fontSize: '1.2rem', fontWeight: '800' }}>Hasta que no entiendas que invertir en tí no es un gasto, NO TE APUNTES.</p>
+                    </div>
+                    {/* CUARTO ENLACE DE PAGO */}
+                    <div style={{ textAlign: 'center', margin: '40px 0' }}>
+                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        {cardsImg}
                     </div>
 
                 </article>
