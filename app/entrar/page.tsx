@@ -123,11 +123,6 @@ export default function Entrar() {
                             alt="Testimonio 2"
                             style={{ width: '100%', height: 'auto', borderRadius: '16px', display: 'block' }}
                         />
-                        <img
-                            src="/testimonio3.png"
-                            alt="Testimonio 3"
-                            style={{ width: '100%', height: 'auto', borderRadius: '16px', display: 'block' }}
-                        />
                     </div>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>Preguntas frecuentes</h2>
