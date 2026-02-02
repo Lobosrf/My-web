@@ -56,7 +56,7 @@ export default function Entrar() {
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Que recibes?</h2>
 
-                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados, no te preocupes) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
+                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados en tu zona privada, PERO NO PUEDES ACCEDER A LOS ANTERIORES, NI PAGANDO MÁS) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
                     <p style={{ marginBottom: '20px' }}>- Información filtrada de RRSS donde el ruido nubla tu criterio y la ilusión mantiene el deseo de que haya un empujón a máximos históricos constantemente (esto no es el oro)</p>
                     <p style={{ marginBottom: '40px' }}>- Sesiones de preguntas y respuestas en directo aprovechando las dudas y errores que cometemos todos haciendo trading.</p>
 
@@ -164,8 +164,8 @@ export default function Entrar() {
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Cuanto vale?</h2>
                     <p style={{ marginBottom: '10px' }}>20€/mes sin permanencia y parasiempre. Nunca subirá el precio para ti hasta que te des de baja.</p>
-                    <p style={{ marginBottom: '10px' }}>El precio de entrada se mantiene hasta el día 8 de febrero de 2026 a las 23:59 hora España.</p>
-                    <p style={{ marginBottom: '20px' }}>Si te piensas apuntar, hazlo antes del 8, hazme caso. Después el precio sube.</p>
+                    <p style={{ marginBottom: '10px' }}>El precio de entrada se mantiene hasta el día 5 de febrero de 2026 a las 20:59 hora España.</p>
+                    <p style={{ marginBottom: '20px' }}>Si te piensas apuntar, hazlo antes del 5, hazme caso. Después el precio sube.</p>
                     <p style={{ marginBottom: '40px' }}>No confundas precio con valor. Si crees que 20 € es caro es que para tí es un gasto.</p>
 
                     <div style={{ textAlign: 'center', marginTop: '50px', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
