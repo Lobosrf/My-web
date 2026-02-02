@@ -56,7 +56,7 @@ export default function Entrar() {
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Que recibes?</h2>
 
-                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados en tu zona privada, PERO NO PUEDES ACCEDER A LOS ANTERIORES, NI PAGANDO MÁS) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
+                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados en tu zona privada, <u>PERO NO PUEDES ACCEDER A LOS ANTERIORES, NI PAGANDO MÁS) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
                     <p style={{ marginBottom: '20px' }}>- Información filtrada de RRSS donde el ruido nubla tu criterio y la ilusión mantiene el deseo de que haya un empujón a máximos históricos constantemente (esto no es el oro)</p>
                     <p style={{ marginBottom: '40px' }}>- Sesiones de preguntas y respuestas en directo aprovechando las dudas y errores que cometemos todos haciendo trading.</p>
 
