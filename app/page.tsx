@@ -45,8 +45,8 @@ export default function Home() {
         <p>Estas son las tres habilidades que cualquiera que quiera ser trader debe dominar:</p>
         <ol style={{ paddingLeft: '20px', margin: '25px 0', fontSize: '1.15rem' }}>
           <li style={{ marginBottom: '10px' }}>Wyckoff</li>
-          <li style={{ marginBottom: '10px' }}>Candle Range Theory</li>
-          <li style={{ marginBottom: '10px' }}>ICT</li>
+          <li style={{ marginBottom: '10px' }}>Whyckoff</li>
+          <li style={{ marginBottom: '10px' }}>Un poco de ICT</li>
         </ol>
         <p style={{ marginBottom: '20px' }}>Me da igual si te gustan las EMAS o el RSI, esto se trata de ganar dinero, no de parecer mejor trader</p>
         <p style={{ fontStyle: 'italic', marginBottom: '20px' }}>Te muestro las habilidades que necesitas para ganar operaciones diarias y que te hagan crecer tu cuenta</p>
