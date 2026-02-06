@@ -63,7 +63,7 @@ export default function Entrar() {
 
                     {/* PRIMER ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href="https://whop.com/lobosrf/membresia-lobosrf-copy/ style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -82,7 +82,7 @@ export default function Entrar() {
 
                     {/* SEGUNDO ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href="https://whop.com/lobosrf/membresia-lobosrf-copy/ style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -94,7 +94,7 @@ export default function Entrar() {
 
                     {/* TERCER ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href="https://whop.com/lobosrf/membresia-lobosrf-copy/ style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -164,9 +164,7 @@ export default function Entrar() {
                     <p style={{ marginBottom: '25px' }}>Si. No tienes que ser informático pero con saber usar Trading View, y un exchange es suficiente. Habrá una parte grabada con lo básico de ambas plataformas. Pero si sigues teniendo dudas, NO TE APUNTES.</p>
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Cuanto vale?</h2>
-                    <p style={{ marginBottom: '10px' }}>20€/mes sin permanencia y parasiempre. Nunca subirá el precio para ti hasta que te des de baja.</p>
-                    <p style={{ marginBottom: '10px' }}>El precio de entrada se mantiene hasta el día 5 de febrero de 2026 a las 20:59 hora España.</p>
-                    <p style={{ marginBottom: '20px' }}>Si te piensas apuntar, hazlo antes del 5, hazme caso. Después el precio sube.</p>
+                    <p style={{ marginBottom: '10px' }}>30€/mes sin permanencia y parasiempre. Nunca subirá el precio para ti hasta que te des de baja.</p>
                     <p style={{ marginBottom: '40px' }}>No confundas precio con valor. Si crees que 20 € es caro es que para tí es un gasto.</p>
 
                     <div style={{ textAlign: 'center', marginTop: '50px', borderTop: '1px solid #ddd', paddingTop: '40px' }}>
