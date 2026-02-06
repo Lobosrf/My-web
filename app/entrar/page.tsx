@@ -174,7 +174,7 @@ export default function Entrar() {
                     </div>
                     {/* CUARTO ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href="https://whop.com/lobosrf/membresia-lobosrf-copy/ style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
