@@ -19,7 +19,8 @@ export default function Entrar() {
         </div>
     );
 
-    const whopUrl = "https://whop.com/lobosrf/membresia-lobosrf-copy/";
+    // NUEVO ENLACE ACTUALIZADO
+    const whopUrl = "https://whop.com/checkout/plan_wk7MFa9z8XMMa";
 
     return (
         <div style={{ backgroundColor: '#fdfcfb', minHeight: '100vh', color: '#1a1a1a', fontFamily: 'system-ui, -apple-system, sans-serif', padding: '60px 20px' }}>
