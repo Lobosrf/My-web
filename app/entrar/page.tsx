@@ -19,6 +19,8 @@ export default function Entrar() {
         </div>
     );
 
+    const whopUrl = "https://whop.com/lobosrf/membresia-lobosrf-copy/";
+
     return (
         <div style={{ backgroundColor: '#fdfcfb', minHeight: '100vh', color: '#1a1a1a', fontFamily: 'system-ui, -apple-system, sans-serif', padding: '60px 20px' }}>
             <div style={{ maxWidth: '715px', margin: '0 auto' }}>
@@ -56,14 +58,13 @@ export default function Entrar() {
 
                     <h2 style={{ fontSize: '1.8rem', fontWeight: '900', marginBottom: '20px' }}>¿Que recibes?</h2>
 
-                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados en tu zona privada, <strong>PERO NO PUEDES ACCEDER A LOS ANTERIORES, NI PAGANDO MÁS</strong>)
-                        ) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
+                    <p style={{ marginBottom: '20px' }}>- 4 directos mensuales (quedan grabados en tu zona privada, <strong>PERO NO PUEDES ACCEDER A LOS ANTERIORES, NI PAGANDO MÁS</strong>) los jueves a las 21:00 hora España, donde analizo generalmente Bitcoin, operaciones con estrategias que funcionan, lo que aprendo en mi día a día gracias a mis formaciones y experiencias.</p>
                     <p style={{ marginBottom: '20px' }}>- Información filtrada de RRSS donde el ruido nubla tu criterio y la ilusión mantiene el deseo de que haya un empujón a máximos históricos constantemente (esto no es el oro)</p>
                     <p style={{ marginBottom: '40px' }}>- Sesiones de preguntas y respuestas en directo aprovechando las dudas y errores que cometemos todos haciendo trading.</p>
 
                     {/* PRIMER ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href={whopUrl} style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -82,7 +83,7 @@ export default function Entrar() {
 
                     {/* SEGUNDO ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href={whopUrl} style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -94,7 +95,7 @@ export default function Entrar() {
 
                     {/* TERCER ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href={whopUrl} style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
@@ -110,7 +111,7 @@ export default function Entrar() {
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',
-                        gap: '30px',          // Espacio entre cada testimonio
+                        gap: '30px',
                         marginBottom: '50px',
                         width: '100%'
                     }}>
@@ -174,7 +175,7 @@ export default function Entrar() {
                     </div>
                     {/* CUARTO ENLACE DE PAGO */}
                     <div style={{ textAlign: 'center', margin: '40px 0' }}>
-                        <a href="https://whop.com/checkout/plan_Pn3GawS3QdeWk" style={btnStyle}>ENTRAR</a>
+                        <a href={whopUrl} style={btnStyle}>ENTRAR</a>
                         {cardsImg}
                     </div>
 
